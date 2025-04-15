@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rock+Salt&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #00B8F0,#0020F0);
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Kaushan Script";
+    font-weight: normal;
+    color: #0017af;
+    text-shadow: 1px 1px 5px #00159e;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: "Rock Salt";
+    font-weight: normal;
+    color: #00796f;
+    text-shadow: 1px 1px 5px;
+}
+
+p {
+    font-family: "Work Sans";
+    text-align: justify;
+}
