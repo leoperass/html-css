@@ -40,3 +40,23 @@ iframe#screen {
     width: 267px;
     height: 471px;
 }
+
+section#social-media {
+    text-align: right;
+}
+
+section#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#social-media img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+    transition: transform .3s;
+}
+
